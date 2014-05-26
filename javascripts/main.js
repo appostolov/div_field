@@ -1,16 +1,5 @@
 // JavaScript Document
-var b;
-	var r;
-
-	var fu1 = function(){
-		document.getElementById("c_color").style.backgroundColor = this.style.backgroundColor;
-		b = this.style.backgroundColor; 
-	}
-	
-	var g = document.getElementsByClassName("color");
-	for(var i = 0; i<g.length; i++){
-		g[i].onclick = fu1;
-	}
+var r;
 	
 	var fu2 = function(){
 			r = 1; 
@@ -22,7 +11,7 @@ var b;
 	
 	var fu = function(){
 		if( r == 1 ){
-			this.style.backgroundColor = b;
+			this.style.backgroundColor = document.getElementById("color_select").value;
 		}
 	}
 
