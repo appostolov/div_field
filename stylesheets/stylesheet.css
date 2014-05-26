@@ -37,6 +37,12 @@ i{
 	background-color:#CCC;
 }
 
+#choose_color i{
+	position:relative;
+	margin:15px 20px;
+	float:left;
+}
+
 #choose_color input{
 	position:relative;
 	float:left;
