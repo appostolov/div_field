@@ -1,18 +1,56 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:20px;
+	background-color:#C6CBE1;
+}
+
+i{
+	position:relative;
+	font-size:18px;
+	font-weight:bold;
+	color:#003;
+	margin:10px;
+}
+
 #plane{
-	position:absolute; width:500px; height:500px; border:1px solid black;
+	position:relative;
+	width:500px;
+	height:500px;
+	box-shadow:5px 5px 10px black;
+	background-color:white;
+	cursor:crosshair;
 }
 
-#colors{
-	position:absolute; left:600px; width:100px; height:470px; border:1px solid black;
+#choose_color{
+	position:relative;
+	width:105px;
+	height:50px;
+	margin:20px 0;
+	border:1px solid black;
+	background-color:#CCC;
 }
 
-.color:active{
-	box-shadow:2px 2px 5px black;
+#choose_color input{
+	position:relative;
+	float:left;
+	margin:15px 20px;
+	cursor:pointer;
 }
 
-#c_color{
-	position:absolute; left:750px; width:100px; height:100px; border:1px solid black;
+#author{
+	position:relative;
+	width:auto;
+	max-width:460px;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	border:2px solid #5C5134;
+	background-color:#FFC;
+	padding:20px;
 }
