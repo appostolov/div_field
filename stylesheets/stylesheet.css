@@ -27,6 +27,7 @@ i{
 	box-shadow:5px 5px 10px black;
 	background-color:white;
 	cursor:crosshair;
+	margin:0 auto;
 }
 
 #choose_color{
@@ -41,7 +42,6 @@ i{
 #choose_color i{
 	position:relative;
 	margin:15px 20px;
-	float:left;
 }
 
 #choose_color input{
